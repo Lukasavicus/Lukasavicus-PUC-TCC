@@ -1,0 +1,4 @@
+https://www.snowflake.com/guides/data-pipeline#:~:text=A%20data%20pipeline%20is%20a,used%20to%20develop%20business%20insights.
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsCeLi_Ynq9caXB9003wUdCwfT9ttly6SmiunpKi1ufQ&s
+https://chat.openai.com/
+https://amazonwebshark.com/connecting-athena-to-power-bi-with-simba-athena/#configuring-simba-athena

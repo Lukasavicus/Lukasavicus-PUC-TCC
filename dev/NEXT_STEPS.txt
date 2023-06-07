@@ -1,0 +1,46 @@
+DATA ENG:
+---------
+Implementar as views descritas no diagrama:
+
+- Dims x Year
+- Time Series
+Basicamente é consolidar todas as fatos e extrair métricas tipo, contagem e soma delas;
+
+---
+- Joins:
+Criar um tabelão com 10 dimensões (descarta as demais) com todos os joins feitos e colunas desnecessárias removidas (tipo umas de código interno);
+
+---
+Hierarchia:
+Ou não existe ou é muito dificil de inferir só pelas tabelas;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DATA VIZ:
+---------
+Criar o dashboard com as visões que haviam sido definidas (v3) com base nesses novos dados;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DATA SCI:
+---------
+Criar modelo de análise de série temporal;
+Ver demais sugestões do chatGPT;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DATA GOV:
+---------
+- Precisa fazer uma intro;
+- Precisa fazer uma pesquisa;
+- Precisa fazer um referencial teorico e etc;
+	- mas todas essas partes são mais burocráticas;
+	- dai pra aproveitar a vibe de ir fazendo, a melhor alternativa é:
+- Documentar DE;
+- Documentar DV;
+- Documentar DS;
+
+Isso já usando o modelo da PUC;
+Isso deve levar 1 dia (8hrs) pra fazer, daí dá pra focar na parte burocrática que deve levar uns 5 dias no total;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------

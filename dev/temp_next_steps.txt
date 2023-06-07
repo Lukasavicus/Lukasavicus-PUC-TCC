@@ -1,0 +1,65 @@
+
+WITH T AS(
+SELECT
+    vw_agg_categ_econ.ano_particao as ano_particao,
+    id_categ_econ,
+    id_grupo,
+    id_procedencia,
+    id_modalidade_aplic,
+    id_funcao,
+    id_elemento,
+    id_tipo_documento,
+    id_subfuncao,
+    id_fonte,
+    id_unidade_orc
+    FROM vw_agg_categ_econ
+    JOIN vw_agg_grupo ON vw_agg_categ_econ.ano_particao = vw_agg_grupo.ano_particao
+    JOIN vw_agg_procedencia ON vw_agg_categ_econ.ano_particao = vw_agg_procedencia.ano_particao
+    JOIN vw_agg_modalidade_aplic ON vw_agg_categ_econ.ano_particao = vw_agg_modalidade_aplic.ano_particao
+    JOIN vw_agg_funcao ON vw_agg_categ_econ.ano_particao = vw_agg_funcao.ano_particao
+    JOIN vw_agg_elemento ON vw_agg_categ_econ.ano_particao = vw_agg_elemento.ano_particao
+    JOIN vw_agg_tipo_documento ON vw_agg_categ_econ.ano_particao = vw_agg_tipo_documento.ano_particao
+    JOIN vw_agg_subfuncao ON vw_agg_categ_econ.ano_particao = vw_agg_subfuncao.ano_particao
+    JOIN vw_agg_fonte ON vw_agg_categ_econ.ano_particao = vw_agg_fonte.ano_particao
+    JOIN vw_agg_unidade_orc ON vw_agg_categ_econ.ano_particao = vw_agg_unidade_orc.ano_particao
+)
+- Essa ideia morreu;
+
+- proximos passos:
+- criar ft_depesa_24meses - ok
+- cruzar essa fato contra as outras dimensões para pegar os respect nomes (ao inves dos codigos); - ok
+- veriricar quais são os demais campos de cada dim; (se entender que existe hierarquia, criamos heirarquia ou no bd ou no pbi); - like ok
+
+---
+DESTINO:
+acao
+categ_econ
+elemento_desp
+empenho_desp (com justificativa)
+programa (justificativa)
+favorecido
+funcao (categoria)
+grupo (categoria)
+item (categoria bem micro)
+subfuncao
+
+
+ORIGEM:
+fonte
+procedencia
+
+FILTRO:
+modalidade (pode ser usada como filtro pq explica se que tipo de operacao financeira foi feita)
+situacao_op
+tipo de documento
+unidade_orc (quem usou o dinheiro)
+
+Ideias:
+https://www.youtube.com/watch?v=VHGCxrN0bJo
+word cloud for favorecido
+
+Dois gráficos de barras:
+1 com o valor empenhado (barra maior, atrás) e o valor pago (barra menor, na frente);
+O outro é um gráfico com as diferencas, com uma linha cortando a médias das diferencas. Top N (10) sorted by diferenca, do maior para o menor.
+
+Engenharia de dados na dimensão: favorecidos;

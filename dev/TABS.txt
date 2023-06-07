@@ -1,0 +1,18 @@
+[TCC] Adm:
+https://canvas.pucminas.br/
+https://canvas.pucminas.br/#module_432498
+https://canvas.pucminas.br/
+https://dados.mg.gov.br/organization/
+https://www.transparencia.mg.gov.br/faleconosco
+https://dados.mg.gov.br/dataset/despesa
+https://dados.mg.gov.br/dataset/despesa/resource/0ef92504-f6b0-4967-ba38-09cf5e025ba5?inner_span=True
+https://databox.com/dashboard-examples/expenses
+https://www.slideteam.net/powerpoint/Expense-Dashboard
+https://dribbble.com/tags/expense_dashboard
+https://www.qlik.com/us/dashboard-examples/financial-dashboards
+https://colab.research.google.com/drive/19JcX-5tP3WsX5R0lGSHFYjC3j4ndyb_y#scrollTo=j4ruPzWJ8XTz&uniqifier=1
+https://theculturetrip.com/asia/south-korea/articles/10-fascinating-korean-words-that-have-no-english-translation/
+https://www.google.com/search?q=unzip+file+into+s3+boto3&rlz=1C1GCEO_enBR1051BR1052&oq=unzip+file+into+s3+boto3&aqs=chrome..69i57j0i22i30j0i390i650l3.7839j0j9&sourceid=chrome&ie=UTF-8&bshm=bshwcqp/1
+https://stackoverflow.com/questions/51276201/how-to-extract-files-in-s3-on-the-fly-with-boto3
+
+---

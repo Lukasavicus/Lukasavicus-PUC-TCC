@@ -1,0 +1,5 @@
+python -m venv test_venv
+.\test_venv\Scripts\activate
+mkdir python
+pip install pandas -t python
+powershell Compress-Archive python pandas.zip  
