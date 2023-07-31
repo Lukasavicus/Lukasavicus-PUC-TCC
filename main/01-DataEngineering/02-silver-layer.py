@@ -29,8 +29,6 @@ def list_to_unzip():
     print('objects', objects)
     errs_unzip = []
     for obj in objects:
-        # bronze-layer/datapackage.csv.gz
-        # print('>', obj)
         try:
             complete_filename = obj.split('/')[1]
             filename = '.'.join(complete_filename.split('.')[:-1])
@@ -45,5 +43,4 @@ def list_to_unzip():
         print('errs_unzip', errs_unzip)
 
 def lambda_handler(event, context):
-    print("OLAR")
     list_to_unzip()

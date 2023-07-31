@@ -1,1 +1,4 @@
 others/*
+*.pbix
+main/05-Entrega/*
+dev/*
